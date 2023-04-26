@@ -5,7 +5,7 @@
   <remote name="khaeruirgi" fetch="https://github.com/khaeruirgi"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   <remote name="Xiaomi-MT6833" fetch="https://github.com/Xiaomi-MT6833"/>
-  <remote name="clang" fetch="https://gitlab.com/NRanjan-17"/>
+  <remote name="clang" fetch="https://gitlab.com/Amritorock"/>
   <remote name="kernel" fetch="https://github.com/xiaomi-mt6853-devs"/>
  
 <!-- Device Trees -->
@@ -20,6 +20,6 @@
 <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-20"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Xiaomi-MT6833" revision="thirteen"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1"/>
 
 </manifest>
